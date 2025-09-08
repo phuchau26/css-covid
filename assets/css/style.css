@@ -1,0 +1,851 @@
+body {
+  font-family: var(--font);
+  box-sizing: border-box;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.notice {
+  background: var(--color-1);
+  color: var(--color-2);
+  text-align: center;
+  padding: 7.8px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.neo-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 13px;
+}
+
+.hold {
+  display: flex;
+  justify-items: center;
+  width: 104%;
+  max-width: 1200px;
+}
+
+.brand {
+  color: var(--color-1);
+  font-weight: 600;
+  font-size: 26px;
+  margin-right: 26%;
+}
+
+.list-option {
+  display: flex;
+  color: var(--color-1);
+  gap: 52px;
+}
+
+.list-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+
+.help {
+  color: var(--color-3);
+}
+
+.logo img {
+  height: 52px;
+  width: 52px;
+  margin-right: 13px;
+}
+
+.logo,
+.brand,
+.container .item,
+.icon:hover {
+  cursor: pointer;
+}
+
+.list-option .item:hover {
+  color: #47b5ed;
+}
+
+/* ---------------------------------- */
+
+.container-2 {
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.advertise {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+}
+
+.element-1 {
+  width: 52%;
+}
+
+.item-icon {
+  display: flex;
+  gap: 6.5px;
+}
+
+.list-icon-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-name {
+  color: var(--color-1);
+  font-weight: 600;
+  font-size: 60px;
+  width: 100%;
+}
+
+.element-2 {
+  width: 91%;
+}
+
+.element-2 img {
+  max-width: 650px;
+  width: 100%;
+}
+
+.container-2 .describe {
+  font-weight: 300;
+  color: var(--color-1);
+}
+
+.item-icon span,
+i {
+  font-size: 18.2px;
+  color: var(--color-1);
+}
+
+.botton {
+  background-color: var(--color-2);
+  border-radius: 26px;
+  color: white;
+  padding: 13px;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  justify-content: center;
+  width: 52%;
+  border: 2.6px solid var(--color-2);
+}
+
+.botton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: var(--color-2);
+  border: var(--color-2) solid 2.6px;
+}
+
+.advertise .element-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  justify-content: center;
+}
+
+.element-2 {
+  position: relative;
+  margin-left: 26%;
+}
+
+.price-product {
+  position: relative;
+}
+
+.price {
+  background-color: var(--color-2);
+  border-radius: 65%;
+  width: 130px;
+  height: 130px;
+  font-size: 22.1px;
+  font-weight: 600;
+  color: var(--color-1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 6%;
+  right: 25%;
+}
+
+.price span {
+  font-size: 45.5px;
+}
+
+/* --------------------------------------- */
+.container-3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  padding-bottom: 1%;
+}
+
+.container-3 .box-center {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.container-3 .item-1 {
+  width: 364px;
+  height: 260px;
+  background-image: url(../images/mbr.jpeg);
+  background-size: cover;
+  position: relative;
+}
+
+.container-3 .item-new {
+  background-color: #13a05d;
+  border-radius: 26px;
+  padding: 2.6px;
+  padding-left: 13px;
+  padding-right: 13px;
+  font-size: 19.5px;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: 13%;
+  left: 13%;
+}
+
+.container-3 .item-descrip {
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+  width: 39%;
+  top: 32.5%;
+  left: 13%;
+}
+
+.container-3 .item-more,
+.container-3 .item-shop,
+.container-3 .item-buy {
+  background-color: var(--color-1);
+  border: 2.6px solid var(--color-1);
+  border-radius: 26px;
+  padding: 9.1px;
+  padding-left: 26px;
+  padding-right: 26px;
+  font-size: 19.5px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: white;
+  position: absolute;
+  bottom: 13%;
+  left: 13%;
+}
+
+.container-3 .item-more:hover,
+.container-3 .item-shop:hover,
+.container-3 .item-buy:hover {
+  background-color: white;
+  cursor: pointer;
+  color: var(--color-1);
+}
+
+.container-3 .item-2 {
+  width: 364px;
+  height: 260px;
+  background-image: url(../images/card1.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.container-3 .item-basic,
+.container-3 .item-medical {
+  color: var(--color-1);
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+  width: 50%;
+  top: 13%;
+  left: 13%;
+}
+
+.container-3 .item-dis,
+.container-3 .item-price {
+  color: var(--color-2);
+  font-size: 45.5px;
+  font-weight: 600;
+  position: absolute;
+  top: 34%;
+  left: 13%;
+}
+
+.container-3 .item-3 {
+  width: 364px;
+  height: 260px;
+  background-image: url(../images/mbr-3.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.container-3 .item-old {
+  color: gray;
+  text-decoration: line-through;
+  opacity: 80%;
+  position: absolute;
+  left: 13%;
+  bottom: 35%;
+}
+
+/* --------------------------------------- */
+
+.container-4 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #f0f2f5;
+}
+
+.container-4 .box-center {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.container-4 .item-title {
+  color: var(--color-1);
+  font-size: 40px;
+  font-weight: 600;
+  width: 70%;
+  text-align: center;
+}
+
+.container-4 .item-descrip {
+  color: var(--color-3);
+  font-size: 18px;
+  margin-top: 1.5%;
+}
+
+.container-4 .item-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.container-4 .icon-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-4 .item-2 {
+  display: flex;
+  width: 70%;
+}
+
+.container-4 i {
+  font-size: 40px;
+  color: var(--color-3);
+  margin-bottom: 7%;
+}
+
+.container-4 .name {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-1);
+}
+
+.container-4 .describe {
+  text-align: center;
+  color: var(--color-3);
+}
+
+/* ------------------------------------------ */
+.container-5 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-5 .box-center {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  padding: 1%;
+}
+
+.container-5 .item-1 {
+  color: var(--color-1);
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.container-5 .element-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.container-5 .item-2 {
+  color: var(--color-3);
+  font-size: 22px;
+}
+
+.container-5 .about {
+  color: white;
+  background-color: var(--color-2);
+  border: 2px solid var(--color-2);
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  width: 23%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.container-5 .about:hover {
+  background-color: white;
+  color: var(--color-2);
+  cursor: pointer;
+}
+
+/* ---------------------------------- */
+.container-6 {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f2f5;
+  padding: 3%;
+}
+
+.container-6 .img-back {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.container-6 .box-center {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url(../images/features2.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.container-6 .element-1 {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  width: 50%;
+  align-items: center;
+}
+
+.container-6 .more {
+  background-color: #13a05d;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid #13a05d;
+  align-content: center;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.container-6 .more:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #13a05d;
+}
+
+/* ------------------- */
+.container-7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-7 .box-center{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5%;
+}
+.container-7 .title{
+    color: var(--color-1);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 5%;
+}
+
+.container-7 .item{
+    display: flex;
+    flex-direction: column;
+    border: #f0f2f5 2px solid;
+}
+
+.container-7 .img-item img{
+    height: 200px;
+    width: 240px;
+    object-fit: cover;
+}
+
+.container-7 .name{
+    color: var(--color-1);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container-7 .num{
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--color-1);
+}
+
+.container-7 .star{
+    font-size: 16px;
+    color: var(--color-2);
+}
+
+.container-7 .element{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container-7 .list{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -------------------- */
+.container-8{
+    background-color: #f0f2f5;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.container-8 .box-center{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    padding: 6%;
+}
+
+.container-8 .dis{
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--color-1);
+    width: 35%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.container-8 input{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    width: 70%;
+}
+
+.container-8 button{
+    color: white;
+    background: var(--color-2);
+    border: 2px solid var(--color-2);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.container-8 button:hover{
+    color: var(--color-2);
+    background: white;
+    cursor: pointer;
+}
+
+.container-8 form{
+    display: flex;
+    gap: 10%;
+}
+
+/* -------------------- */
+.container-9{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.container-9 .box-center{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.container-9 img{
+    height: 550px;
+    width: 1200px;
+    object-fit: cover;
+    margin-top: 1%;
+}
+
+.container-9 i{
+    position: absolute;
+    font-size: 100px;
+    color: white;
+}
+
+.container-9 i:hover{
+  color: var(--color-1);
+}
+
+.container-9 .watch{
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--color-1);
+    width: 35%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.container-9 .video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------------------------- */
+.container-10{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f0f2f5;
+}
+
+.container-10 .box-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.container-10 .element-1 span, .container-10 i{
+  color: var(--color-1);
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.container-10 i{
+  font-weight: 100;
+  color: var(--color-2);
+  margin-right: 2%;
+}
+
+.container-10 .item{
+  background-color: white;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin-top: 2%;
+}
+
+.container-10 .review{
+  color: var(--color-1);
+  font-size: 25px;
+}
+
+.container-10 .name{
+  color: var(--color-1);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.container-10 .star{
+  color: var(--color-2);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 5%;
+}
+
+.container-10 .list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-10 .element-1{
+  display: flex;
+  justify-content: center;
+}
+
+/* -------------------- */
+.container-11{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.container-11 .box-center{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+
+.container-11 .element-1{
+  width: 40%;
+  margin-right: 0;
+}
+
+.container-11 .help{
+  font-size: 40px;
+  color: var(--color-1);
+  font-weight: 700;
+}
+
+.container-11 .element-1 p{
+  color: var(--color-3);
+  font-size: 15px;
+  margin-bottom: 10%;
+}
+
+.container-11 .phone{
+  font-size: 40px;
+  color: var(--color-1);
+  font-weight: 700;
+}
+
+.container-11 .contact{
+  color: var(--color-1);
+  background-color: white;
+  border: 2px solid #f0f2f5;
+  padding: 2%;
+  display: inline-block;
+  border-radius: 20px;
+  margin-bottom: 5%;
+}
+
+.container-11 .contact:hover{
+  color: white;
+  background-color: var(--color-1);
+  cursor: pointer;
+}
+
+.container-11 hr {
+  border: none;              
+  height: 2px;               
+  background-color: #f0f2f5; 
+}
+
+.container-11 i{
+  color: var(--color-3);
+  margin-top: 5%;
+}
+
+.container-11 .element-2{
+  width: 60%;
+  margin-left: 0;
+}
+
+/* --------------------- */
+.container-12{
+  background-color: var(--color-1);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-12 .box-center{
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  gap: 2%;
+  padding: 4%;
+}
+
+.container-12 li{
+  color: white;
+  margin-bottom: 10%;
+}
+
+.container-12 ul{
+  list-style: none;
+}
+
+/* --------------------- */
+.container-13{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-13 .box-center{
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  padding: 5px;
+}
+
+.container-13 img{
+  width: 40px;
+}
+
+.container-13 p{
+  color: var(--color-1);
+  margin-right: 30%;
+}
